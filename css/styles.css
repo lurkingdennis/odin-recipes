@@ -1,0 +1,14 @@
+body {
+	background-color: #282828;
+	color: #ebdbb2;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+#intro, .list {
+	background-color: #458588;
+	text-align: center;
+}
+
+h1, p {
+	text-align: center;
+}
