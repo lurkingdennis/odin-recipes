@@ -1,14 +1,42 @@
 body {
-	background-color: #282828;
-	color: #ebdbb2;
+	background-color: #dde5b6;
+	color: #463f3a;
 	font-family: 'JetBrains Mono', monospace;
+	width: 800px;
+	margin: 0 auto;
 }
 
 #intro, .list {
 	background-color: #458588;
 	text-align: center;
 }
+#intro {
+	font-size: 60px;
+}
+.list {
+	margin-top: 100px;
+}
+
+.list a {
+	font-size: 20px;
+}
+ul, a {
+	list-style: none;
+	text-decoration: none;
+}
 
 h1, p {
 	text-align: center;
+}
+
+.box {
+	border: 2px solid grey;
+	background-color: #c6ac8f;
+}
+
+img.food { 
+	display: block;
+	height: auto;
+	width: 300px;
+	margin: 0 auto;
 }
